@@ -1,1 +1,1 @@
-# gen-challenge
+# payment-gateway
