@@ -7,25 +7,21 @@ const UserSchema = new mongoose.Schema({
 	},
 	email: {
 		type: String,
-		required: true
+		required: true,
+		unique: true
 	},
 	cpf:{
 		type: String,
-		required: true
-	} ,
-	phoneNumber:{
-		type: String,
-		required: true
+		required: true,
+		unique: true
 	} ,
 	password:{
 		type: String,
 		required: true
-	} ,
-	balance:{
-        type: Number,
-        
+	},
+	amount:{
+		type: Number,
 	}
-
 });			
 
 module.exports = mongoose.model('User', UserSchema);
