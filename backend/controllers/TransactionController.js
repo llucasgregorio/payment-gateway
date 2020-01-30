@@ -11,10 +11,9 @@ module.exports = {
         console.log(req.body);
         
         //Corpo da request
-        const {name,email,cpf,phoneNumber,password, balance=0} = req.body;
+        const {name,email,cpf,phoneNumber,password, balance=0       } = req.body;
         //Busca o usuario pelo email
         let user = await User.findOne({email,cpf});
-    
         if(!user){
          user = await User.create({
             name,

@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --roxo : #7D83FF;
+}
+
+h1{
+  color: white;
+}
+
+.div__background{
+  background-color: var(--roxo);
+
+}
+.section__texto{
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.section__texto img{
+  width: 650px;
+}

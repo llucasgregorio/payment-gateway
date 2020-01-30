@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+:root{
+    --roxo : ;
+}
+.div_header{
+    background-color: #7768AE;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    margin: auto;
+    width: 1200px;
+    padding: 24px;
+    text-align: center;
+    font-family: Roboto;
+  }
+
+  .link-3 {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .link-3:hover {
+    background-color: #ffffff;
+    color: #758ECD;
+    padding: 25px 10px;
+  }
