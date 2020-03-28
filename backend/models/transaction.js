@@ -6,14 +6,16 @@ const TransactionSchema = new mongoose.Schema({
         type :mongoose.Schema.Types.ObjectId,
         ref:'User'
     },
-    amount :{
+    balance :{
         type : mongoose.Schema.Types.String,
-        required : true
+        required : true,
+        ref: 'User'
     },
     payment:{
         type: mongoose.Schema.Types.ObjectID,
-        required: true
-    }
+        required: true,
+        ref: 'Payment'
+    },
 
 });			
 

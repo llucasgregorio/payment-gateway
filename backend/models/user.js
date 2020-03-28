@@ -19,8 +19,13 @@ const UserSchema = new mongoose.Schema({
 		type: String,
 		required: true
 	},
-	amount:{
+	phone:{
 		type: Number,
+		required: false,
+	},
+	balance:{
+		type: Number,
+		required: false
 	}
 });			
 
